@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+/* General Navbar Styles */
+.navbar {
+    width: 97vw;
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-right: auto; /* Aligns logo to the left */
+}
+/* Style for the logo image */
+.logo-img {
+    width: 100px; /* Adjust width as needed */
+    height: 50px;
+}
+
+/* Nav Links and List Styles */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.notifications-section {
+    padding: 20px;
+}
+
+.notifications-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.notification-card {
+    background: linear-gradient(145deg, #ffffff, #f1f1f1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), 
+                -5px -5px 15px rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.notification-card:hover {
+    transform: translateY(-5px);
+}
+
+.notification-card h3 {
+    margin: 0 0 10px 0;
+    color: #198a50; /* Change the title color */
+    font-size: 20px;
+}
+
+.notification-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.notification-date {
+    display: block;
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+
